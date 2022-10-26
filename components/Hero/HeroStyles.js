@@ -10,24 +10,24 @@ export const HeroStylesStyles = styled.div`
   padding-top: 80px;
   overflow: hidden;
   z-index: 1;
+`;
+export const CircleStyles = styled.div`
+  position: relative;
+  width: 100%;
+  width: 640px;
 
-  .test {
-    position: relative;
-    width: 100%;
-    width: 640px;
+  & div {
+    overflow: hidden;
+  }
 
-    & div {
-      overflow: hidden;
-    }
-
-    & img {
-      position: absolute;
-      top: 25px;
-      left: 0;
-      z-index: -1;
-    }
+  & img {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    z-index: -1;
   }
 `;
+
 export const WrapperContentStyles = styled.div`
   margin: 0 auto;
   text-align: center;

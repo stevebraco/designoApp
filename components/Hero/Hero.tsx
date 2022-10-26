@@ -4,6 +4,7 @@ import Button from '../Button/Button';
 import dataHero from './HeroProps';
 
 import {
+  CircleStyles,
   HeroStylesStyles,
   SubTitleStyles,
   TitleStyles,
@@ -21,11 +22,11 @@ const Hero = () => {
 
   return (
     <HeroStylesStyles>
-      <div className="test">
+      <CircleStyles>
         <div>
           <img src={circle.src} />
         </div>
-      </div>
+      </CircleStyles>
       <WrapperContentStyles>
         <TitleStyles>{title}</TitleStyles>
         <SubTitleStyles>{subTitle}</SubTitleStyles>
